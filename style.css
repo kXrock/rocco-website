@@ -1,0 +1,61 @@
+/* Rocco public pages (privacy, support, home). Same palette as the store art. */
+:root {
+  --cream: #fff8e7;
+  --butter: #ffe9a6;
+  --sun: #ffc23d;
+  --ink: #1a1c3b;
+  --ink-muted: #5e6285;
+  --primary: #5050e6;
+  --card: #ffffff;
+  --line: #f1e3bd;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cream: #17182f;
+    --butter: #2a2b4d;
+    --ink: #f4f1e8;
+    --ink-muted: #b6b8d3;
+    --primary: #a3a3ff;
+    --card: #20213f;
+    --line: #34355c;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font: 17px/1.6 "Nunito", system-ui, -apple-system, sans-serif;
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+header img { width: 56px; height: 56px; border-radius: 13px; }
+header a { color: inherit; text-decoration: none; }
+.brand { font-family: "Fredoka", system-ui, sans-serif; font-weight: 700; font-size: 26px; line-height: 1.1; }
+.brand small { display: block; font-size: 15px; font-weight: 600; color: var(--primary); }
+nav { margin-left: auto; display: flex; gap: 16px; font-weight: 700; font-size: 15px; }
+nav a { color: var(--primary); text-decoration: none; }
+h1, h2, h3 { font-family: "Fredoka", system-ui, sans-serif; line-height: 1.2; }
+h1 { font-size: 34px; margin: 0 0 6px; }
+h2 { font-size: 23px; margin: 36px 0 8px; }
+h3 { font-size: 18px; margin: 22px 0 4px; }
+.meta { color: var(--ink-muted); font-size: 15px; margin-bottom: 24px; }
+.card { background: var(--card); border: 2px solid var(--line); border-radius: 20px; padding: 20px 22px; margin: 18px 0; }
+a { color: var(--primary); }
+ul { padding-left: 22px; }
+li { margin: 4px 0; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+th { font-weight: 800; }
+.hero { text-align: center; padding: 24px 0 8px; }
+.hero img { width: 128px; height: 128px; border-radius: 29px; box-shadow: 0 10px 24px rgba(26, 28, 59, 0.18); }
+.hero h1 { font-size: 40px; margin-top: 18px; }
+.hero p { font-size: 19px; color: var(--ink-muted); margin: 0 auto; max-width: 520px; }
+.accent { color: var(--primary); }
+footer { margin-top: 48px; color: var(--ink-muted); font-size: 14px; text-align: center; }
+@media (max-width: 520px) {
+  header { flex-wrap: wrap; }
+  nav { margin-left: 0; width: 100%; }
+  h1 { font-size: 29px; }
+}
+.card h3:first-child { margin-top: 0; }
