@@ -51,6 +51,8 @@ th { font-weight: 800; }
 .hero img { width: 128px; height: 128px; border-radius: 29px; box-shadow: 0 10px 24px rgba(26, 28, 59, 0.18); }
 .hero h1 { font-size: 40px; margin-top: 18px; }
 .hero p { font-size: 19px; color: var(--ink-muted); margin: 0 auto; max-width: 520px; }
+.hero .store { display: inline-block; margin-top: 24px; }
+.hero .store img { width: auto; height: 54px; border-radius: 0; box-shadow: none; }
 .accent { color: var(--primary); }
 footer { margin-top: 48px; color: var(--ink-muted); font-size: 14px; text-align: center; }
 @media (max-width: 520px) {
