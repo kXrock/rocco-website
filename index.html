@@ -4,39 +4,172 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rocco: House Cleaning &amp; Chores</title>
-  <meta name="description" content="Rocco turns real house chores into a cozy game. Do a chore, snap a photo, earn coins and decorate your home.">
+  <meta name="description" content="Rocco turns your daily chores into a habit. Do a real chore, snap a photo and earn coins to decorate a cozy home that is all yours. For iPhone.">
   <meta name="apple-itunes-app" content="app-id=6820277478">
+  <meta name="theme-color" content="#fff1c4">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rocco: House Cleaning &amp; Chores">
+  <meta property="og:description" content="Do a real chore, snap a photo and earn coins to decorate a cozy home that is all yours.">
+  <meta property="og:url" content="https://kxrock.github.io/rocco-website/">
+  <meta property="og:image" content="https://kxrock.github.io/rocco-website/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
-    </header>
-    <section class="hero">
-      <img src="icon.png" alt="Rocco app icon">
-      <h1>Real chores, <span class="accent">cozy rewards</span></h1>
-      <p>Rocco turns real house chores into a cozy game. Do a chore, snap a photo, earn coins and decorate a home that is all yours.</p>
-      <a class="store" href="https://apps.apple.com/app/id6820277478"><img src="app-store-badge.svg" alt="Download Rocco on the App Store"></a>
-    </section>
-    <div class="card">
-      <h3>How it works</h3>
-      <ul>
-        <li>A tiny plan every day, sized to the minutes you have.</li>
-        <li>Snap a photo when you are done. Rocco the raccoon checks it and pays you in coins.</li>
-        <li>Spend coins on cozy decor, grow your home and make your character.</li>
-        <li>Stuck on a stain? Ask Rocco.</li>
-        <li>Visit friends' homes on your street, or share a home with the people you live with.</li>
-      </ul>
-      <p>Rocco is for iPhone. Coins are never sold, only earned. A subscription and sign-in are required.</p>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#top"><img src="icon.png" alt="" width="38" height="38">Rocco</a>
+      <nav aria-label="Main">
+        <a class="link" href="#how">How it works</a>
+        <a class="link" href="#faq">Questions</a>
+        <a class="btn small" href="https://apps.apple.com/app/id6820277478">Download</a>
+      </nav>
     </div>
-    <footer>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-text">
+          <p class="eyebrow">Your cleaning routine, made cozy</p>
+          <h1>Real chores,<br><span class="accent">cozy rewards</span></h1>
+          <p class="lead">Rocco turns your daily chores into a habit. Do one real chore, snap a photo, and the coins you earn decorate a home that is all yours.</p>
+          <div class="cta">
+            <a class="badge" href="https://apps.apple.com/app/id6820277478"><img src="app-store-badge.svg" alt="Download Rocco on the App Store" width="162" height="54"></a>
+            <a class="ghost" href="#how">See how it works</a>
+          </div>
+          <p class="fine">For iPhone. New subscribers start with a 7-day free trial.</p>
+        </div>
+        <a class="hero-art" href="https://apps.apple.com/app/id6820277478" aria-label="Get Rocco on the App Store">
+          <img src="img/hero.webp" alt="A made bed earns 20 coins for a cozy isometric room, and Rocco the raccoon cheers: Bed made. Your home just got a little cozier." width="760" height="1235">
+        </a>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="wrap">
+        <ul class="chips" aria-label="Highlights">
+          <li>2 to 5 minute quests</li>
+          <li>Photo checked by Rocco</li>
+          <li>Coins earned, never sold</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="how" id="how">
+      <div class="wrap">
+        <h2>Three taps from messy to cozy</h2>
+        <p class="sub">Pick a step to see it in the app.</p>
+        <div class="steps">
+          <input class="sr" type="radio" name="step" id="s1" checked aria-label="Step 1: pick a tiny chore">
+          <input class="sr" type="radio" name="step" id="s2" aria-label="Step 2: do it and snap a photo">
+          <input class="sr" type="radio" name="step" id="s3" aria-label="Step 3: spend coins on your home">
+          <div class="tabs">
+            <label class="tab t1" for="s1"><span class="n">1</span><span><b>Pick a tiny chore</b><span class="d">Tell Rocco which chores you keep putting off and how much time you have: 5, 10 or 15 minutes. You get a small daily plan with only the chores you really have.</span></span></label>
+            <label class="tab t2" for="s2"><span class="n">2</span><span><b>Do it, then snap a photo</b><span class="d">Make the bed, load the dishwasher, clear the chair. Take a quick photo and Rocco checks it before the coins land.</span></span></label>
+            <label class="tab t3" for="s3"><span class="n">3</span><span><b>Spend coins on your home</b><span class="d">Shop for beds, sofas, lamps and plants, drag them onto the grid and watch your room get cozier. Something is always waiting there tomorrow.</span></span></label>
+          </div>
+          <div class="stage">
+            <img class="p1" src="img/shot-2.webp" alt="The Quests screen: a small daily cleaning plan with chores like make your bed and dust one shelf" width="560" height="1217">
+            <img class="p2" src="img/shot-4.webp" alt="A before and after photo of a messy desk, checked by Rocco, worth 35 coins" width="560" height="1217">
+            <img class="p3" src="img/shot-3.webp" alt="Placing a new piece of furniture in an isometric room, with today's shop window below" width="560" height="1217">
+          </div>
+        </div>
+        <div class="cta center">
+          <a class="btn" href="https://apps.apple.com/app/id6820277478">Get Rocco on the App Store</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="peek" aria-labelledby="peek-title">
+      <div class="wrap">
+        <h2 id="peek-title">Take a peek inside</h2>
+        <p class="sub">Swipe to explore.</p>
+      </div>
+      <ul class="gal" tabindex="0" aria-label="App screenshots, scroll sideways">
+        <li><img src="img/shot-1.webp" alt="Real chores, cozy rewards: a made bed earns coins for your room" width="560" height="1217" loading="lazy"></li>
+        <li><img src="img/shot-2.webp" alt="A tiny cleaning plan, every day" width="560" height="1217" loading="lazy"></li>
+        <li><img src="img/shot-3.webp" alt="Spend coins on cozy decor" width="560" height="1217" loading="lazy"></li>
+        <li><img src="img/shot-4.webp" alt="Snap before, snap after" width="560" height="1217" loading="lazy"></li>
+        <li><img src="img/shot-5.webp" alt="Stuck on a stain? Ask Rocco" width="560" height="1217" loading="lazy"></li>
+        <li><img src="img/shot-6.webp" alt="Rocco keeps time for tougher chores" width="560" height="1217" loading="lazy"></li>
+        <li><img src="img/shot-7.webp" alt="Make yourself at home: create your own character" width="560" height="1217" loading="lazy"></li>
+      </ul>
+    </section>
+
+    <section class="why">
+      <div class="wrap">
+        <h2>Made for real life</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="img/rocco-duster.webp" alt="" width="190" height="183" loading="lazy">
+            <h3>No guilt, just a little dust</h3>
+            <p>Miss a few days and your room just gets a little dusty. Nothing is lost. Do one quick quest and Rocco sweeps it away.</p>
+          </article>
+          <article class="card">
+            <img src="img/rocco-idea.webp" alt="" width="190" height="209" loading="lazy">
+            <h3>Stuck on a stain? Ask Rocco</h3>
+            <p>Coffee on the rug? Get simple step-by-step tips, with a photo if you like. Answers are AI-generated, so test on a hidden spot first.</p>
+          </article>
+          <article class="card">
+            <img src="img/rocco-shopping.webp" alt="" width="190" height="180" loading="lazy">
+            <h3>Coins are earned, never sold</h3>
+            <p>No coin packs and no ads. Your home only grows with real chores, so every piece in it means something.</p>
+          </article>
+          <article class="card">
+            <img src="img/rocco-wave.webp" alt="" width="190" height="187" loading="lazy">
+            <h3>Better together</h3>
+            <p>Share one home with up to 6 people on the Home plan, and visit friends' homes on your street.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="wrap narrow">
+        <h2>Good to know</h2>
+        <details>
+          <summary>Do I need a subscription?</summary>
+          <p>Yes. Rocco requires a subscription. New subscribers start with a 7-day free trial, and you can cancel anytime in your Apple Account settings. Cancel before the trial ends and you pay nothing.</p>
+        </details>
+        <details>
+          <summary>What happens to my chore photos?</summary>
+          <p>You take the photo inside the app. An AI service (Google Gemini) checks it, then it is thrown away, and Rocco never stores your photos. The app asks for your permission before the first photo is checked. Details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+        </details>
+        <details>
+          <summary>Can the people I live with join in?</summary>
+          <p>Yes. With the Home plan, up to 6 people can live in one shared home. Everyone does their own chores and earns their own coins.</p>
+        </details>
+        <details>
+          <summary>Is Rocco only for iPhone?</summary>
+          <p>Yes, Rocco is for iPhone for now.</p>
+        </details>
+        <details>
+          <summary>Will Rocco judge my mess?</summary>
+          <p>Never. Quests are tiny, steps are short, and you get at most one gentle reminder a day at a time you choose.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="wrap">
+        <img src="img/rocco-celebrate.webp" alt="" width="220" height="239" loading="lazy">
+        <div>
+          <h2>Your cozy home starts with one tiny chore</h2>
+          <a class="badge" href="https://apps.apple.com/app/id6820277478"><img src="app-store-badge.svg" alt="Download Rocco on the App Store" width="162" height="54" loading="lazy"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
       Rocco is made by Kerem Kaya. <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a> ·
       <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple standard EULA)</a>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>
 </html>
