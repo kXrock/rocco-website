@@ -18,7 +18,7 @@
     </header>
 
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective October 10, 2026</p>
+    <p class="meta">Effective November 2, 2026</p>
 
     <p>Rocco is an iPhone app that turns real house chores into a cozy game. This policy explains what the app collects, why,
       who helps us run it, how long we keep it and how you can delete it. Rocco is made by Kerem Kaya, an individual developer
@@ -28,9 +28,11 @@
       <h3>The short version</h3>
       <ul>
         <li>Your chore photos are checked and then thrown away. We never store the photos.</li>
-        <li>No ads and no tracking across other apps. We count how the app is used (for example, that a chore was finished)
+        <li>No ads inside the app. We count how the app is used (for example, that a chore was finished)
           without any of your content, and you can turn this off in Settings.</li>
-        <li>We never sell or share your data for advertising.</li>
+        <li>If you saw a Rocco ad on Facebook or Instagram, we measure whether it led to an install. iOS asks your permission
+          first; if you say no, no advertising identifier is read. "Share usage data" in Settings turns this off too.</li>
+        <li>We never sell your data and we never use your photos, chats or codes for advertising.</li>
         <li>You can delete your account and its data in the app at any time.</li>
       </ul>
     </div>
@@ -47,9 +49,26 @@
       <tr><td><b>Purchases</b>: subscription status, plan, renewal and expiry dates; for button packs, the store's purchase ID, product, date and whether it was refunded</td><td>To unlock the app while your subscription is active, and to add (or, after a refund, take back) the buttons you bought.</td></tr>
       <tr><td><b>Usage records for AI requests</b>: time, model and size of each photo check or Ask Rocco request</td><td>To limit daily use and control costs.</td></tr>
       <tr><td><b>Usage events</b>: short records of actions in the app, never their content. See "Usage analytics" below</td><td>To learn which parts of Rocco work and improve them. You can turn this off.</td></tr>
+      <tr><td><b>Ad measurement</b>: app opens and installs, that you signed in, purchases made through the App Store (such as a subscription, a free trial or a button pack), basic device details (such as device type and iOS version), your IP address, an anonymous app-install ID and, only if you allow tracking when iOS asks, your advertising identifier. See "Ad measurement" below</td><td>To tell whether a Rocco ad on Facebook or Instagram led to an install, so we can spend less on ads that do not work. You can turn this off.</td></tr>
     </table>
-    <p>We do not collect your location, contacts, browsing history, advertising identifier or crash diagnostics.
+    <p>We do not collect your location, contacts, browsing history or crash diagnostics. We read your advertising identifier
+      only if you allow tracking (see "Ad measurement").
       Reminders are scheduled on your phone by iOS; we do not send them from a server.</p>
+
+    <h2>Ad measurement</h2>
+    <ul>
+      <li>Rocco uses the Meta SDK (Meta Platforms, Inc.) so Meta can tell whether a Rocco ad you saw on Facebook or Instagram
+        led to an install, a sign-in or a subscription.</li>
+      <li>After you sign in, iOS asks (once) whether Rocco may track you across other companies' apps and websites. If you
+        choose <b>Ask App Not to Track</b>, Rocco does not read your advertising identifier. The events listed above are still
+        sent, without that identifier, and Rocco does not link them to you.</li>
+      <li>If you choose <b>Allow</b>, Meta receives the events listed in the table above together with your advertising identifier.
+        You can change this at any time in iPhone Settings &gt; Privacy &amp; Security &gt; Tracking.</li>
+      <li>Rocco starts the Meta SDK only after you sign in and your own "Share usage data" choice has been read (if you turned it off
+        on another phone, that choice follows your account). If it is off, nothing is sent to Meta, whatever you chose in iOS.</li>
+      <li>Meta never receives your name, photos, Ask Rocco conversations, friend codes or home codes. Meta's own policy applies to
+        what it receives: <a href="https://www.facebook.com/privacy/policy/">facebook.com/privacy/policy</a>.</li>
+    </ul>
 
     <h2>How chore photos work</h2>
     <ul>
@@ -101,10 +120,12 @@
       <tr><td>Google (Gemini API, Google Sign-In)</td><td>Checks chore photos, answers Ask Rocco, and signs you in if you choose Google.</td></tr>
       <tr><td>Apple (Sign in with Apple, App Store)</td><td>Signs you in if you choose Apple and handles all payments. We never see your payment details.</td></tr>
       <tr><td>RevenueCat</td><td>Keeps track of your subscription and button pack purchases. It receives your purchase information and an account ID, not your name or photos.</td></tr>
+      <tr><td>Meta Platforms, Inc. (Meta SDK)</td><td>Measures whether a Rocco ad on Facebook or Instagram led to an install, a sign-in or a subscription. See "Ad measurement" above.</td></tr>
       <tr><td>PostHog (servers in the EU, Frankfurt)</td><td>Counts how the app is used (product analytics). It receives the usage events described above and an account ID, never your name, conversations, photos or codes.</td></tr>
     </table>
-    <p>These services process data only to provide their part of Rocco. We do not sell your personal information and we do not
-      share it for cross-context behavioral advertising.</p>
+    <p>These services process data only to provide their part of Rocco. We do not sell your personal information. The only
+      advertising-related sharing is the ad measurement described above, and your advertising identifier is read only with
+      your permission in iOS.</p>
 
     <h2>How long we keep data</h2>
     <ul>
