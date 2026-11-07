@@ -18,7 +18,7 @@
     </header>
 
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective November 2, 2026</p>
+    <p class="meta">Effective November 7, 2026</p>
 
     <p>Rocco is an iPhone app that turns real house chores into a cozy game. This policy explains what the app collects, why,
       who helps us run it, how long we keep it and how you can delete it. Rocco is made by Kerem Kaya, an individual developer
@@ -77,7 +77,8 @@
       <li>The photo goes to our server and to the Google Gemini API (paid tier) to check the chore. Google does not use paid-tier
         requests to train its models. Neither we nor our server keep the photo after the check.</li>
       <li>We keep a short check record for 60 days: the result, a reason code, a short text note of at most 120 characters
-        (for example "bed made, pillows in place") and fingerprints of the image (mathematical hashes, not the image) so the
+        (for example "bed made, pillows in place"), for a quick job its name and what it should look like when done (at most
+        200 characters, for example "unpack the suitcase") and fingerprints of the image (mathematical hashes, not the image) so the
         same photo cannot be used twice. After 60 days the record is deleted.</li>
     </ul>
 
@@ -131,6 +132,8 @@
     <ul>
       <li>Your account, profile, game data, friends and Ask Rocco history: until you delete your account.</li>
       <li>Chore check records: 60 days.</li>
+      <li>AI cost records (which feature was used, token counts and an estimated cost, never your photo, question or answer):
+        linked to your account until you delete it, then kept without your account.</li>
       <li>Usage events at PostHog: until you delete your account, and never longer than the storage period of our PostHog plan.
         Turning off "Share usage data" stops new events.</li>
       <li>Reports: until they are resolved, then only as long as needed to keep the community safe.</li>
@@ -139,7 +142,7 @@
 
     <h2>Deleting your account</h2>
     <p>In the app, go to <b>Settings &gt; Delete account</b>. This permanently deletes your account and all data above from our
-      server, removes you from your friends' streets and your shared home, disconnects Sign in with Apple, deletes your
+      server (AI cost records stay, no longer linked to you), removes you from your friends' streets and your shared home, disconnects Sign in with Apple, deletes your
       record at RevenueCat and deletes your usage events at PostHog (PostHog finishes this within 30 days). Deleting your account does not cancel an App Store subscription; cancel it in
       <b>iPhone Settings &gt; Apple Account &gt; Subscriptions</b>. You can also email us to delete your data.</p>
 
