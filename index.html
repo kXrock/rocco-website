@@ -3,20 +3,235 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rocco: House Cleaning &amp; Chores</title>
-  <meta name="description" content="Rocco turns your daily chores into a habit. Do a real chore, snap a photo and earn coins to decorate a cozy home that is all yours. For iPhone.">
+  <title>Rocco: House Cleaning &amp; Chores App for iPhone</title>
+  <meta name="description" content="Rocco is an iPhone app that turns real house chores into a daily habit. Do a 2 to 5 minute chore, snap a photo, earn coins and furnish a cozy home.">
+  <link rel="canonical" href="https://rocco.keremkaya.dev/">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="apple-itunes-app" content="app-id=6820277478">
   <meta name="theme-color" content="#fff1c4">
+  <meta property="og:site_name" content="Rocco">
+  <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Rocco: House Cleaning &amp; Chores">
-  <meta property="og:description" content="Do a real chore, snap a photo and earn coins to decorate a cozy home that is all yours.">
-  <meta property="og:url" content="https://kxrock.github.io/rocco-website/">
-  <meta property="og:image" content="https://kxrock.github.io/rocco-website/img/og.jpg">
+  <meta property="og:description" content="Do a real chore, snap a photo and earn coins to decorate a cozy home that is all yours. An iPhone app for your cleaning routine.">
+  <meta property="og:url" content="https://rocco.keremkaya.dev/">
+  <meta property="og:image" content="https://rocco.keremkaya.dev/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="514">
+  <meta property="og:image:alt" content="Rocco the raccoon next to a cozy isometric room in the Rocco app">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rocco: House Cleaning &amp; Chores">
+  <meta name="twitter:description" content="Do a real chore, snap a photo and earn coins to decorate a cozy home that is all yours. An iPhone app for your cleaning routine.">
+  <meta name="twitter:image" content="https://rocco.keremkaya.dev/img/og.jpg">
   <link rel="icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" as="image" href="img/hero.webp" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="home.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://rocco.keremkaya.dev/#website",
+        "url": "https://rocco.keremkaya.dev/",
+        "name": "Rocco",
+        "description": "The official website of Rocco: House Cleaning & Chores, an iPhone app that turns real house chores into a daily habit.",
+        "inLanguage": "en",
+        "publisher": {"@id": "https://rocco.keremkaya.dev/#maker"}
+      },
+      {
+        "@type": "Person",
+        "@id": "https://rocco.keremkaya.dev/#maker",
+        "name": "Kerem Kaya",
+        "jobTitle": "Independent app developer",
+        "url": "https://rocco.keremkaya.dev/about.html",
+        "email": "mailto:keremxkaya08@gmail.com",
+        "address": {"@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR"}
+      },
+      {
+        "@type": ["SoftwareApplication", "MobileApplication"],
+        "@id": "https://rocco.keremkaya.dev/#app",
+        "name": "Rocco: House Cleaning & Chores",
+        "alternateName": "Rocco",
+        "description": "Rocco is an iPhone app that turns real house chores into a daily habit. You do a small real chore of about 2 to 5 minutes, take a photo, Rocco checks the photo, you earn coins, and the coins furnish and grow a cozy virtual home that is yours. Rocco is also the app's mascot, a friendly raccoon in yellow rubber gloves who never judges the mess.",
+        "url": "https://rocco.keremkaya.dev/",
+        "operatingSystem": "iOS 16.4 or later",
+        "applicationCategory": "LifestyleApplication",
+        "applicationSubCategory": "Cleaning routine and chore tracker",
+        "downloadUrl": "https://apps.apple.com/app/id6820277478",
+        "installUrl": "https://apps.apple.com/app/id6820277478",
+        "softwareVersion": "1.1.2",
+        "datePublished": "2026-10-30",
+        "dateModified": "2026-11-12",
+        "fileSize": "128 MB",
+        "inLanguage": ["en", "tr", "es", "pt-BR", "fr", "de", "it", "ja", "ko", "zh-Hans"],
+        "image": "https://rocco.keremkaya.dev/icon.png",
+        "screenshot": [
+          "https://rocco.keremkaya.dev/img/shot-1.webp",
+          "https://rocco.keremkaya.dev/img/shot-2.webp",
+          "https://rocco.keremkaya.dev/img/shot-3.webp",
+          "https://rocco.keremkaya.dev/img/shot-4.webp",
+          "https://rocco.keremkaya.dev/img/shot-5.webp",
+          "https://rocco.keremkaya.dev/img/shot-6.webp",
+          "https://rocco.keremkaya.dev/img/shot-7.webp"
+        ],
+        "featureList": [
+          "A small daily chore list built from the chores you keep putting off",
+          "Quests are tiny real chores of about 2 to 5 minutes: make the bed, do the dishes, laundry, clear the clothes chair, take out the trash, dust",
+          "Every chore is confirmed with a photo taken in the app and checked by AI (Google Gemini); photos are not stored",
+          "Any chore that is not on your list also counts and earns 20, 35 or 50 coins, up to 3 a day",
+          "Coins buy furniture and decor for a cozy virtual home that grows from one bedroom to a living room, kitchen and bathroom",
+          "Your own character lives in the home: cooks, eats, sleeps and watches TV",
+          "Weekly promise with gift boxes and streaks; one missed week a month is forgiven",
+          "10 badges with 26 tiers whose rewards can only be earned, never bought",
+          "Ask Rocco: a chat for cleaning, tidying and home care questions with an optional photo, up to 15 questions a day",
+          "Home plan: up to 6 people share one home",
+          "Friends: visit friends' homes and leave a sticker or a small gift",
+          "Chore timer on the Lock Screen and in the Dynamic Island",
+          "Home Screen and Lock Screen widgets (iOS 17 or later)",
+          "At most one gentle reminder a day at a time you choose",
+          "No ads in the app; coins are never sold"
+        ],
+        "softwareRequirements": "iPhone with iOS 16.4 or later",
+        "author": {"@id": "https://rocco.keremkaya.dev/#maker"},
+        "publisher": {"@id": "https://rocco.keremkaya.dev/#maker"},
+        "sameAs": [
+          "https://apps.apple.com/app/id6820277478",
+          "https://www.instagram.com/rocco.app_/",
+          "https://www.tiktok.com/@rocco.app_",
+          "https://www.facebook.com/profile.php?id=61595254802800"
+        ],
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Free download",
+            "price": "0",
+            "priceCurrency": "USD",
+            "url": "https://apps.apple.com/app/id6820277478",
+            "availability": "https://schema.org/InStock",
+            "description": "Rocco is free to download from the App Store. Using Rocco requires a subscription; new subscribers get a 7-day free trial on every plan."
+          },
+          {
+            "@type": "Offer",
+            "name": "Rocco Premium, monthly (one person)",
+            "category": "subscription",
+            "price": "6.99",
+            "priceCurrency": "USD",
+            "url": "https://rocco.keremkaya.dev/pricing.html",
+            "description": "One person. Starts with a 7-day free trial for new subscribers. US App Store price.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "6.99",
+              "priceCurrency": "USD",
+              "billingDuration": "P1M",
+              "referenceQuantity": {"@type": "QuantitativeValue", "value": 1, "unitCode": "MON"}
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Rocco Premium, yearly (one person)",
+            "category": "subscription",
+            "price": "29.99",
+            "priceCurrency": "USD",
+            "url": "https://rocco.keremkaya.dev/pricing.html",
+            "description": "One person. Starts with a 7-day free trial for new subscribers. US App Store price.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "29.99",
+              "priceCurrency": "USD",
+              "billingDuration": "P1Y",
+              "referenceQuantity": {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Home plan, monthly (up to 6 people)",
+            "category": "subscription",
+            "price": "11.99",
+            "priceCurrency": "USD",
+            "url": "https://rocco.keremkaya.dev/pricing.html",
+            "description": "Up to 6 people in one shared home; invited members do not pay. Starts with a 7-day free trial for new subscribers. US App Store price.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "11.99",
+              "priceCurrency": "USD",
+              "billingDuration": "P1M",
+              "referenceQuantity": {"@type": "QuantitativeValue", "value": 1, "unitCode": "MON"}
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Home plan, yearly (up to 6 people)",
+            "category": "subscription",
+            "price": "49.99",
+            "priceCurrency": "USD",
+            "url": "https://rocco.keremkaya.dev/pricing.html",
+            "description": "Up to 6 people in one shared home; invited members do not pay. Starts with a 7-day free trial for new subscribers. US App Store price.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "49.99",
+              "priceCurrency": "USD",
+              "billingDuration": "P1Y",
+              "referenceQuantity": {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}
+            }
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://rocco.keremkaya.dev/#webpage",
+        "url": "https://rocco.keremkaya.dev/",
+        "name": "Rocco: House Cleaning & Chores App for iPhone",
+        "description": "Rocco is an iPhone app that turns real house chores into a daily habit. Do a 2 to 5 minute chore, snap a photo, earn coins and furnish a cozy home.",
+        "inLanguage": "en",
+        "isPartOf": {"@id": "https://rocco.keremkaya.dev/#website"},
+        "about": {"@id": "https://rocco.keremkaya.dev/#app"},
+        "primaryImageOfPage": {"@type": "ImageObject", "url": "https://rocco.keremkaya.dev/img/og.jpg", "width": 1200, "height": 514},
+        "dateModified": "2026-11-15"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://rocco.keremkaya.dev/#faq",
+        "url": "https://rocco.keremkaya.dev/",
+        "inLanguage": "en",
+        "isPartOf": {"@id": "https://rocco.keremkaya.dev/#website"},
+        "about": {"@id": "https://rocco.keremkaya.dev/#app"},
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do I need a subscription?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Yes. Rocco requires a subscription. New subscribers start with a 7-day free trial, and you can cancel anytime in your Apple Account settings. Cancel before the trial ends and you pay nothing. <a href=\"https://rocco.keremkaya.dev/pricing.html\">See plans and prices</a>"}
+          },
+          {
+            "@type": "Question",
+            "name": "What happens to my chore photos?",
+            "acceptedAnswer": {"@type": "Answer", "text": "You take the photo inside the app. An AI service (Google Gemini) checks it, then it is thrown away, and Rocco never stores your photos. The app asks for your permission before the first photo is checked. Details are in the <a href=\"https://rocco.keremkaya.dev/privacy.html\">Privacy Policy</a>."}
+          },
+          {
+            "@type": "Question",
+            "name": "Can the people I live with join in?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Yes. With the Home plan, up to 6 people can live in one shared home. Everyone does their own chores and earns their own coins."}
+          },
+          {
+            "@type": "Question",
+            "name": "Is Rocco only for iPhone?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Yes, Rocco is for iPhone for now."}
+          },
+          {
+            "@type": "Question",
+            "name": "Will Rocco judge my mess?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Never. Quests are tiny, steps are short, and you get at most one gentle reminder a day at a time you choose."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="top">
@@ -24,6 +239,7 @@
       <a class="brand" href="#top"><img src="icon.png" alt="" width="38" height="38">Rocco</a>
       <nav aria-label="Main">
         <a class="link" href="#how">How it works</a>
+        <a class="link" href="pricing.html">Pricing</a>
         <a class="link" href="#faq">Questions</a>
         <a class="btn small" href="https://apps.apple.com/app/id6820277478">Download</a>
       </nav>
@@ -44,7 +260,7 @@
           <p class="fine">For iPhone. New subscribers start with a 7-day free trial.</p>
         </div>
         <a class="hero-art" href="https://apps.apple.com/app/id6820277478" aria-label="Get Rocco on the App Store">
-          <img src="img/hero.webp" alt="A made bed earns 20 coins for a cozy isometric room, and Rocco the raccoon cheers: Bed made. Your home just got a little cozier." width="760" height="1235">
+          <img src="img/hero.webp" alt="A made bed earns 20 coins for a cozy isometric room, and Rocco the raccoon cheers: Bed made. Your home just got a little cozier." width="760" height="1235" fetchpriority="high">
         </a>
       </div>
     </section>
@@ -68,7 +284,7 @@
           <input class="sr" type="radio" name="step" id="s2" aria-label="Step 2: do it and snap a photo">
           <input class="sr" type="radio" name="step" id="s3" aria-label="Step 3: spend coins on your home">
           <div class="tabs">
-            <label class="tab t1" for="s1"><span class="n">1</span><span><b>Pick a tiny chore</b><span class="d">Tell Rocco which chores you keep putting off and how much time you have: 5, 10 or 15 minutes. You get a small daily plan with only the chores you really have.</span></span></label>
+            <label class="tab t1" for="s1"><span class="n">1</span><span><b>Pick a tiny chore</b><span class="d">Tell Rocco which chores you keep putting off. You get a small daily plan with only the chores you really have.</span></span></label>
             <label class="tab t2" for="s2"><span class="n">2</span><span><b>Do it, then snap a photo</b><span class="d">Make the bed, load the dishwasher, clear the chair. Take a quick photo and Rocco checks it before the coins land.</span></span></label>
             <label class="tab t3" for="s3"><span class="n">3</span><span><b>Spend coins on your home</b><span class="d">Shop for beds, sofas, lamps and plants, drag them onto the grid and watch your room get cozier. Something is always waiting there tomorrow.</span></span></label>
           </div>
@@ -134,6 +350,7 @@
         <details>
           <summary>Do I need a subscription?</summary>
           <p>Yes. Rocco requires a subscription. New subscribers start with a 7-day free trial, and you can cancel anytime in your Apple Account settings. Cancel before the trial ends and you pay nothing.</p>
+          <p><a href="pricing.html">See plans and prices</a></p>
         </details>
         <details>
           <summary>What happens to my chore photos?</summary>
@@ -151,6 +368,7 @@
           <summary>Will Rocco judge my mess?</summary>
           <p>Never. Quests are tiny, steps are short, and you get at most one gentle reminder a day at a time you choose.</p>
         </details>
+        <p class="more"><a href="faq.html">More questions answered</a></p>
       </div>
     </section>
 
@@ -167,8 +385,13 @@
 
   <footer>
     <div class="wrap">
-      Rocco is made by Kerem Kaya. <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a> ·
-      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple standard EULA)</a>
+      <nav class="foot-links" aria-label="Footer">
+        <a href="./">Home</a> · <a href="how-it-works.html">How it works</a> · <a href="pricing.html">Pricing</a> ·
+        <a href="faq.html">FAQ</a> · <a href="guides/">Guides</a> · <a href="about.html">About</a> ·
+        <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a> ·
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple standard EULA)</a>
+      </nav>
+      <p>Rocco is made by Kerem Kaya, Istanbul, Türkiye.</p>
     </div>
   </footer>
 </body>

@@ -1,0 +1,35 @@
+# Rocco website robots.txt
+# Crawling is welcome. Search engines, AI search engines and AI assistants are
+# welcome to read these pages, cite them and use them to answer questions about Rocco.
+# The AI crawlers below are named only to make that intent explicit; all of them are allowed.
+
+# Search engines
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: DuckAssistBot
+# AI search and answer engines
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: MistralAI-User
+User-agent: Amazonbot
+# AI training and grounding (allowed on purpose)
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: meta-externalagent
+Allow: /
+Disallow: /go/
+
+# Everyone else
+User-agent: *
+Allow: /
+Disallow: /go/
+
+Sitemap: https://rocco.keremkaya.dev/sitemap.xml

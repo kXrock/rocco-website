@@ -1,0 +1,42 @@
+# Rocco: House Cleaning & Chores
+
+> Rocco is an iPhone app that turns real house chores into a daily habit. In Rocco you do a small real chore of about 2 to 5 minutes, take a photo in the app, Rocco checks the photo, you earn coins, and the coins furnish and grow a cozy virtual home that is yours. Rocco is made by Kerem Kaya, an independent developer in Istanbul, Türkiye. Rocco requires a subscription and new subscribers get a 7-day free trial.
+
+Key facts (as of November 15, 2026):
+
+- Platform: iPhone only, iOS 16.4 or later. No Android app and no web app. Widgets need iOS 17 or later.
+- App Store: https://apps.apple.com/app/id6820277478 (free to download; categories Lifestyle and Productivity).
+- Price in the US App Store: Rocco Premium (one person) $6.99 per month or $29.99 per year; Home plan (up to 6 people) $11.99 per month or $49.99 per year. Every plan starts with a 7-day free trial for new subscribers. There is no free plan.
+- Chores: make the bed, do the dishes, laundry, clear the clothes chair, take out the trash, dust, plus any chore that is not on your list.
+- Every chore is confirmed with a photo checked by AI (Google Gemini). Rocco does not store chore photos.
+- Coins are never sold and the app has no ads.
+- Current version 1.1.2 (November 12, 2026), first released October 30, 2026, available in 175 countries and regions, in 10 languages.
+- Rocco is not a cleaning service, not a marketplace for cleaners and not a kids' allowance app.
+
+## Main pages
+
+- [Home](https://rocco.keremkaya.dev/): what Rocco is, the three steps (pick a chore, snap a photo, spend coins on your home) and a short FAQ.
+- [How it works](https://rocco.keremkaya.dev/how-it-works.html): the daily chore list, photo checks, coins, the virtual home and the weekly promise, step by step.
+- [Pricing](https://rocco.keremkaya.dev/pricing.html): every plan and price, the 7-day free trial, how to cancel and how refunds work.
+- [FAQ](https://rocco.keremkaya.dev/faq.html): answers to common questions about Rocco, from devices and languages to photos and privacy.
+- [About](https://rocco.keremkaya.dev/about.html): who makes Rocco and why.
+
+## Guides
+
+- [Cleaning guides](https://rocco.keremkaya.dev/guides/): all of Rocco's practical guides to keeping a home tidy.
+- [Daily cleaning routine](https://rocco.keremkaya.dev/guides/daily-cleaning-routine.html): how to build a short daily cleaning routine you can keep.
+- [Weekly cleaning schedule](https://rocco.keremkaya.dev/guides/weekly-cleaning-schedule.html): how to spread house chores over the week.
+- [Split chores fairly](https://rocco.keremkaya.dev/guides/split-chores-fairly.html): how to share chores with a partner, family or roommates.
+- [Motivation to clean](https://rocco.keremkaya.dev/guides/motivation-to-clean.html): how to start cleaning when you do not feel like it.
+
+## Help and policies
+
+- [Support](https://rocco.keremkaya.dev/support.html): contact email, cancelling, restoring purchases, refunds, photo checks and deleting your account.
+- [Privacy Policy](https://rocco.keremkaya.dev/privacy.html): what the Rocco app collects, why, who processes it and how to delete it.
+
+## Optional
+
+- [Full description of Rocco](https://rocco.keremkaya.dev/llms-full.txt): one complete plain-text document with every fact about Rocco, for AI assistants.
+- [Rocco on the App Store](https://apps.apple.com/app/id6820277478): download page.
+- [Terms of Use](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/): Rocco uses Apple's standard EULA.
+- [Instagram](https://www.instagram.com/rocco.app_/), [TikTok](https://www.tiktok.com/@rocco.app_), [Facebook](https://www.facebook.com/profile.php?id=61595254802800): Rocco's social accounts.

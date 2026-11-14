@@ -1,0 +1,118 @@
+# Rocco: House Cleaning & Chores (full description)
+
+Last updated: 2026-11-15
+
+This document describes the iPhone app Rocco in full, so that a person or an AI assistant can answer questions about Rocco from one place. Every price and number is as of November 15, 2026.
+
+## What Rocco is
+
+- Rocco (full App Store name "Rocco: House Cleaning & Chores", App Store subtitle "Cleaning Schedule & Planner") is an iPhone app that turns real house chores into a daily habit.
+- In Rocco, you do a small real chore, take a photo in the app, Rocco checks the photo, you earn coins, and the coins furnish and grow a cozy virtual home that is yours.
+- Rocco is also the name of the app's mascot: a friendly raccoon in yellow rubber gloves who cheers you on and never judges the mess.
+- Rocco is a chore and cleaning routine app with cozy rewards. Rocco is not a cleaning service, not a marketplace for cleaners, not a kids' allowance app and not available on Android.
+- Rocco runs on iPhone only, with iOS 16.4 or later. There is no Android app, no iPad-specific app and no web app. Rocco's widgets need iOS 17 or later.
+- Rocco is free to download from the App Store at https://apps.apple.com/app/id6820277478 (app id 6820277478). Its App Store categories are Lifestyle and Productivity.
+- Rocco was first released on October 30, 2026. The current version is 1.1.2, released November 12, 2026. The download size is about 128 MB.
+- Rocco is available in 175 countries and regions. The Rocco app is available in 10 languages: English, Turkish, Spanish, Portuguese (Brazil), French, German, Italian, Japanese, Korean and Simplified Chinese.
+- Rocco is made by Kerem Kaya, an independent developer in Istanbul, Türkiye.
+
+## Who Rocco is for
+
+- Rocco suits people who keep putting off small chores.
+- Rocco suits people with busy weeks and people who have low-energy days.
+- Rocco suits people who live with a partner or roommates, because the Home plan lets up to 6 people share one home in the app.
+
+## How Rocco works, step by step
+
+1. Tell Rocco which chores you keep putting off. Rocco builds your own small daily chore list from those chores.
+2. Pick a quest. Quests in Rocco are tiny real chores of about 2 to 5 minutes. The six core chores are: make the bed, do the dishes, laundry, clear the clothes chair, take out the trash, and dust.
+3. Do the chore. For tougher chores you can start a timer, which shows on the iPhone Lock Screen and in the Dynamic Island.
+4. Take a photo inside the Rocco app. Making the bed, laundry, dusting and taking out the trash need one photo. Clearing the chair, doing the dishes and "any mess" need a before photo and an after photo; a faint ghost of the before photo helps you match the angle.
+5. Rocco checks the photo. The check is done by an AI service (Google Gemini), and the app asks for permission before the first photo is checked. Photos are checked and then discarded; Rocco never stores chore photos. If a photo does not pass, Rocco says in one sentence what to fix. Each chore gets 3 tries a day. Screenshots and repeated photos are not accepted.
+6. Earn coins and spend them on your virtual home.
+
+More details about chores in Rocco:
+
+- You can skip a chore today, make a chore come up less often, or take a chore off your list.
+- Any chore that is not on your list also counts in Rocco (for example ironing, changing the sheets or packing). You take a photo, Rocco names one step you can finish now, and then Rocco checks the after photo. A chore that is not on your list earns 20, 35 or 50 coins depending on how big the job is, up to 3 of these a day.
+- Rocco remembers the off-list chores you do and gently asks when they are probably due again. You can add those chores to your list.
+- The first quest in Rocco is free before the subscription screen: make your bed, have the photo checked and earn 20 coins. A new user can then pick one welcome item for the room at 90% off.
+
+## The home in Rocco
+
+- Coins in Rocco buy furniture and decor: beds, sofas, armchairs, rugs, lamps, plants, shelves, wall prints, and kitchen and bathroom pieces.
+- You drag pieces onto a grid in your room and can rotate and move them at any time. You can preview a piece in your own room before buying it.
+- The home in Rocco starts as one bedroom that grows in steps, and then adds a living room, a kitchen and a bathroom.
+- "Today's window" in Rocco shows 4 pieces a day at about 25% off.
+- You create your own character in Rocco (8 skin tones, hairstyles, hair and eye colors, beards). Your character lives in the home on its own: it cooks, eats, sleeps at night and watches TV.
+- If you miss 3 days of chores, your room in Rocco gets a little dusty. Nothing is ever lost, and one quest sweeps the dust away.
+
+## Staying with it
+
+- Weekly promise: in Rocco you choose how many days a week you will tidy. If you keep the promise, you open a gift box, and a bigger one if you tidy every day. Kept weeks build a streak, and one missed week a month is forgiven.
+- Badges: Rocco has 10 badges with 26 tiers (bronze, silver and gold). Badge rewards are floors, wallpapers, clothes and furniture that can only be earned, never bought.
+- Reminders: Rocco sends at most one gentle note a day, at a time you choose. Rocco stays quiet on days your chores are already done.
+- Widgets: Rocco has Home Screen and Lock Screen widgets that show your home, today's progress and your next chore (iOS 17 or later).
+
+## Ask Rocco
+
+- Ask Rocco is a chat inside the app for cleaning, tidying and home care questions, such as how to remove a stain or how to clean something. You can add a photo.
+- Ask Rocco answers up to 15 questions a day.
+- Ask Rocco's answers are AI-generated, so test any cleaning tip on a hidden spot first.
+- Ask Rocco politely declines questions that are not about cleaning, tidying or home care.
+
+## Together
+
+- Home plan: with the Home plan, up to 6 people share one home in Rocco. Everyone does their own chores, earns their own coins and moves their own furniture. People invited into a Home plan home join with a home code and do not pay.
+- Friends ("your street"): you add friends in Rocco with a friend code, visit their homes, and leave a sticker or a small gift. You can block and report other users.
+
+## Pricing
+
+A subscription is required to use Rocco; there is no free plan. New subscribers get a 7-day free trial on every plan. Prices below are for the US App Store in US dollars; other countries get Apple's local price, which is lower in many countries.
+
+| Plan | Who | Monthly | Yearly |
+|---|---|---|---|
+| Rocco Premium | One person | $6.99 per month | $29.99 per year |
+| Home plan | Up to 6 people in one shared home | $11.99 per month | $49.99 per year |
+
+- The yearly plans cost about 64% less than paying monthly for 12 months.
+- With notifications on, Rocco reminds you 2 days before the free trial ends.
+- You cancel a Rocco subscription in iPhone Settings > Apple Account > Subscriptions. If you cancel before the free trial ends, you pay nothing.
+- Refunds for Rocco are handled by Apple at https://reportaproblem.apple.com.
+- Optional extra: "buttons" are a second currency in Rocco used only for character clothes. Button packs cost $0.99 for 300, $2.99 for 1,000 and $4.99 for 2,000. Every plan includes 200 buttons each calendar month. 18 of the 46 clothing pieces are free. Buttons never turn into coins.
+- Coins in Rocco are never sold. There are no coin packs and no ads in the app.
+
+## Privacy summary
+
+- Rocco does not store chore photos.
+- The Rocco app has no ads, and Rocco never sells your data.
+- You sign in to Rocco with Apple or Google.
+- Rocco collects usage analytics without content, and you can turn analytics off in Settings.
+- You can delete your Rocco account in the app.
+- The full policy is at https://rocco.keremkaya.dev/privacy.html.
+
+## What Rocco is not
+
+- Rocco is not a cleaning service and does not send cleaners to your home.
+- Rocco is not a marketplace for hiring cleaners.
+- Rocco is not a kids' allowance app.
+- Rocco is not available on Android.
+- Rocco is not a medical or treatment tool.
+
+## Links
+
+- Website: https://rocco.keremkaya.dev/
+- App Store: https://apps.apple.com/app/id6820277478
+- How it works: https://rocco.keremkaya.dev/how-it-works.html
+- Pricing: https://rocco.keremkaya.dev/pricing.html
+- FAQ: https://rocco.keremkaya.dev/faq.html
+- About the maker: https://rocco.keremkaya.dev/about.html
+- Guides: https://rocco.keremkaya.dev/guides/
+- Support: https://rocco.keremkaya.dev/support.html (email keremxkaya08@gmail.com)
+- Privacy Policy: https://rocco.keremkaya.dev/privacy.html
+- Terms of Use: Apple's standard EULA, https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+- Instagram: https://www.instagram.com/rocco.app_/
+- TikTok: https://www.tiktok.com/@rocco.app_
+- Facebook: https://www.facebook.com/profile.php?id=61595254802800
+
+Last updated: 2026-11-15
