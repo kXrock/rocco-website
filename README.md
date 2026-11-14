@@ -14,6 +14,11 @@ Public pages for the Rocco iPhone app, served by GitHub Pages from the public re
 | Guide: weekly cleaning schedule | `guides/weekly-cleaning-schedule.html` | https://rocco.keremkaya.dev/guides/weekly-cleaning-schedule.html |
 | Guide: split chores fairly | `guides/split-chores-fairly.html` | https://rocco.keremkaya.dev/guides/split-chores-fairly.html |
 | Guide: motivation to clean | `guides/motivation-to-clean.html` | https://rocco.keremkaya.dev/guides/motivation-to-clean.html |
+| Compare | `compare/index.html` | https://rocco.keremkaya.dev/compare/ |
+| Compare: Rocco vs Sweepy | `compare/rocco-vs-sweepy.html` | https://rocco.keremkaya.dev/compare/rocco-vs-sweepy.html |
+| Compare: Rocco vs Tody | `compare/rocco-vs-tody.html` | https://rocco.keremkaya.dev/compare/rocco-vs-tody.html |
+| Compare: Rocco vs FlyLady | `compare/rocco-vs-flylady.html` | https://rocco.keremkaya.dev/compare/rocco-vs-flylady.html |
+| Compare: Sweepy alternatives | `compare/sweepy-alternatives.html` | https://rocco.keremkaya.dev/compare/sweepy-alternatives.html |
 | Privacy Policy | `privacy.html` | https://rocco.keremkaya.dev/privacy.html |
 | Support | `support.html` | https://rocco.keremkaya.dev/support.html |
 | App Store redirect (noindex) | `go/index.html` | https://rocco.keremkaya.dev/go/ |
@@ -67,7 +72,8 @@ python3 site/tools/check.py
 It checks every page (one title, description length, canonical, Open Graph, JSON-LD parses, internal links and images
 exist, no em or en dashes, no `index.html` links, a warning when "game" appears next to "Rocco is"), that `sitemap.xml`
 lists exactly the indexable pages, that `llms.txt` links exist, and that no subscription price other than $6.99, $29.99,
-$11.99 and $49.99 appears.
+$11.99 and $49.99 appears (competitor prices are allowed only in `compare/`). Every page in `compare/` must exist and
+carry the trademark and facts note.
 
 ### When a price, feature or version changes
 
@@ -79,6 +85,10 @@ The same facts are written in several places. Update all of them, then run `tool
 - `how-it-works.html` and `about.html` when a feature or the maker details change.
 - `llms.txt` (key facts) and `llms-full.txt` (everything; also its "Last updated" date).
 - `sitemap.xml`: `<lastmod>` of every page you changed.
+- `compare/*` (and the "How Rocco compares" section of `llms-full.txt`): Rocco's facts there must match too. The facts
+  about Sweepy, Tody and FlyLady live only in these pages and must be re-checked against their App Store pages before
+  each edit (Sweepy https://apps.apple.com/us/app/id1498897320, Tody https://apps.apple.com/us/app/id595339588,
+  FlyLady https://apps.apple.com/us/app/id1115477521); then update the "checked on" date in the note on every compare page.
 
 ### Address
 
@@ -91,11 +101,16 @@ between AI crawlers and the site. `robots.txt` and `llms.txt` now sit at the hos
 To move again: `bash site/tools/set-domain.sh https://new.example.com` swaps the address in every site file (pages,
 JSON-LD, sitemap, llms files, tools); then change `CNAME` and the DNS record.
 
-### Manual off-site steps (checklist)
+### Off-site setup (state on 2026-11-15)
 
-- [ ] Google Search Console: add a URL-prefix property for `https://rocco.keremkaya.dev/` (verify with the
-      HTML tag method or an HTML file in `site/`), then submit `sitemap.xml`.
-- [ ] Bing Webmaster Tools: add the site (import from Search Console is fastest) and submit `sitemap.xml`. Bing's index
-      also feeds Copilot and several AI search tools.
+- [x] Google Search Console: Domain property `keremkaya.dev` (covers `rocco.` and the portfolio), verified by a TXT
+      record at the zone apex in Cloudflare (do not delete it). `https://rocco.keremkaya.dev/sitemap.xml` submitted,
+      indexing of the home page requested.
+- [x] Bing Webmaster Tools: site `https://rocco.keremkaya.dev/`, verified by the CNAME record
+      `69d3b8f0758dfbc2ea54e9909f0d858c.rocco` -> `verify.bing.com` in Cloudflare (do not delete it). Sitemap submitted.
+      Bing's index also feeds Copilot and several AI search tools; its "AI Performance" report shows AI citations.
+- [x] GitHub: Enforce HTTPS is on for `kXrock/rocco-website`; `keremkaya.dev` is a verified Pages domain of the
+      account (TXT record `_github-pages-challenge-kXrock` in Cloudflare, do not delete it), so no other GitHub
+      account can claim a subdomain of it.
 - [ ] App Store Connect: set the Marketing URL to `https://rocco.keremkaya.dev/`.
 - [ ] Link the website from the Instagram, TikTok and Facebook profiles.

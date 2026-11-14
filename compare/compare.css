@@ -1,0 +1,13 @@
+/* Compare pages: small extras on top of ../style.css and ../guides/guides.css. Colors come from the shared variables. */
+.compare-table th[scope="row"] { width: 22%; }
+.compare-table.wide table { min-width: 760px; }
+.compare-table.wide th[scope="row"] { width: 14%; }
+.compare-table td { line-height: 1.45; }
+.choose { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; }
+.choose h2, .choose h3 { margin-top: 28px; }
+.facts-list { list-style: none; padding-left: 0; }
+.facts-list li { margin: 8px 0; }
+.note { font-size: 14px; color: var(--ink-muted); border-left: 4px solid var(--line); padding: 4px 0 4px 14px; margin: 28px 0; }
+@media (max-width: 620px) {
+  .choose { grid-template-columns: 1fr; }
+}

@@ -29,6 +29,14 @@ Key facts (as of November 15, 2026):
 - [Split chores fairly](https://rocco.keremkaya.dev/guides/split-chores-fairly.html): how to share chores with a partner, family or roommates.
 - [Motivation to clean](https://rocco.keremkaya.dev/guides/motivation-to-clean.html): how to start cleaning when you do not feel like it.
 
+## Compare
+
+- [Compare chore apps](https://rocco.keremkaya.dev/compare/): Rocco, Sweepy, Tody and FlyLady side by side, with facts checked November 15, 2026.
+- [Rocco vs Sweepy](https://rocco.keremkaya.dev/compare/rocco-vs-sweepy.html): a whole-home cleaning schedule compared with tiny photo-checked chores.
+- [Rocco vs Tody](https://rocco.keremkaya.dev/compare/rocco-vs-tody.html): cleaning by need compared with tiny photo-checked chores.
+- [Rocco vs FlyLady](https://rocco.keremkaya.dev/compare/rocco-vs-flylady.html): a ready-made routine method compared with tiny photo-checked chores.
+- [Sweepy alternatives](https://rocco.keremkaya.dev/compare/sweepy-alternatives.html): Tody, FlyLady and Rocco, and who each one suits.
+
 ## Help and policies
 
 - [Support](https://rocco.keremkaya.dev/support.html): contact email, cancelling, restoring purchases, refunds, photo checks and deleting your account.

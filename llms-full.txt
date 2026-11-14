@@ -82,6 +82,16 @@ A subscription is required to use Rocco; there is no free plan. New subscribers 
 - Optional extra: "buttons" are a second currency in Rocco used only for character clothes. Button packs cost $0.99 for 300, $2.99 for 1,000 and $4.99 for 2,000. Every plan includes 200 buttons each calendar month. 18 of the 46 clothing pieces are free. Buttons never turn into coins.
 - Coins in Rocco are never sold. There are no coin packs and no ads in the app.
 
+## How Rocco compares
+
+- As of November 15, 2026, Sweepy, Tody and FlyLady are chore and cleaning apps that are free to download on the US App Store and also run on Android; Rocco runs on iPhone only.
+- Sweepy builds a cleaning schedule for the whole home and spreads the work among the people in the home, Tody goes by how much each task needs doing instead of fixed dates, and FlyLady follows the FlyLady Method by Marla Cilley with daily routines and zones.
+- Rocco makes each chore tiny (about 2 to 5 minutes), confirms every chore with a photo checked by AI, and rewards it with coins that furnish a virtual home.
+- In Sweepy and Tody you mark a chore done in the app, and in FlyLady you check it off; their App Store pages do not describe a photo check.
+- Rocco requires a subscription and has no free plan, with a 7-day free trial for new subscribers.
+- Sweepy (first released March 2020), Tody (January 2013) and FlyLady (May 2016) have long track records and many App Store ratings; Rocco was released on October 30, 2026 and has few or no ratings yet.
+- Sweepy, Tody and FlyLady are trademarks of their owners, and Rocco is not affiliated with them. The full comparison is at https://rocco.keremkaya.dev/compare/.
+
 ## Privacy summary
 
 - Rocco does not store chore photos.
@@ -108,6 +118,7 @@ A subscription is required to use Rocco; there is no free plan. New subscribers 
 - FAQ: https://rocco.keremkaya.dev/faq.html
 - About the maker: https://rocco.keremkaya.dev/about.html
 - Guides: https://rocco.keremkaya.dev/guides/
+- Compare: https://rocco.keremkaya.dev/compare/
 - Support: https://rocco.keremkaya.dev/support.html (email keremxkaya08@gmail.com)
 - Privacy Policy: https://rocco.keremkaya.dev/privacy.html
 - Terms of Use: Apple's standard EULA, https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
