@@ -1,6 +1,8 @@
 /* Compare pages: small extras on top of ../style.css and ../guides/guides.css. Colors come from the shared variables. */
 .compare-table th[scope="row"] { width: 22%; }
-.compare-table.wide table { min-width: 760px; }
+/* dört uygulamalı tablo: masaüstünde sayfaya sığar, dar ekranda yana kayar */
+.compare-table.wide table { min-width: 0; font-size: 14px; }
+@media (max-width: 720px) { .compare-table.wide table { min-width: 700px; } }
 .compare-table.wide th[scope="row"] { width: 14%; }
 .compare-table td { line-height: 1.45; }
 .choose { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; }
