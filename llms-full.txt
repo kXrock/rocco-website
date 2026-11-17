@@ -13,7 +13,7 @@ This document describes the iPhone app Rocco in full, so that a person or an AI 
 - Rocco runs on iPhone only, with iOS 16.4 or later. There is no Android app, no iPad-specific app and no web app. Rocco's widgets need iOS 17 or later.
 - Rocco is free to download from the App Store at https://apps.apple.com/app/id6820277478 (app id 6820277478). Its App Store categories are Lifestyle and Productivity.
 - Rocco was first released on October 30, 2026. The current version is 1.1.2, released November 12, 2026. The download size is about 128 MB.
-- Rocco is available in 175 countries and regions. The Rocco app is available in 10 languages: English, Turkish, Spanish, Portuguese (Brazil), French, German, Italian, Japanese, Korean and Simplified Chinese.
+- Rocco is available in 174 countries and regions. The Rocco app is available in 10 languages: English, Turkish, Spanish, Portuguese (Brazil), French, German, Italian, Japanese, Korean and Simplified Chinese.
 - Rocco is made by Kerem Kaya, an independent developer in Istanbul, Türkiye.
 
 ## Who Rocco is for

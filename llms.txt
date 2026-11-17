@@ -10,7 +10,7 @@ Key facts (as of November 15, 2026):
 - Chores: make the bed, do the dishes, laundry, clear the clothes chair, take out the trash, dust, plus any chore that is not on your list.
 - Every chore is confirmed with a photo checked by AI (Google Gemini). Rocco does not store chore photos.
 - Coins are never sold and the app has no ads.
-- Current version 1.1.2 (November 12, 2026), first released October 30, 2026, available in 175 countries and regions, in 10 languages.
+- Current version 1.1.2 (November 12, 2026), first released October 30, 2026, available in 174 countries and regions, in 10 languages.
 - Rocco is not a cleaning service, not a marketplace for cleaners and not a kids' allowance app.
 
 ## Main pages
