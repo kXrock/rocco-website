@@ -28,7 +28,7 @@ This document describes the iPhone app Rocco in full, so that a person or an AI 
 2. Pick a quest. Quests in Rocco are tiny real chores of about 2 to 5 minutes. The six core chores are: make the bed, do the dishes, laundry, clear the clothes chair, take out the trash, and dust.
 3. Do the chore. For tougher chores you can start a timer, which shows on the iPhone Lock Screen and in the Dynamic Island.
 4. Take a photo inside the Rocco app. Making the bed, laundry, dusting and taking out the trash need one photo. Clearing the chair, doing the dishes and "any mess" need a before photo and an after photo; a faint ghost of the before photo helps you match the angle.
-5. Rocco checks the photo. The check is done by an AI service (Google Gemini), and the app asks for permission before the first photo is checked. Photos are checked and then discarded; Rocco never stores chore photos. If a photo does not pass, Rocco says in one sentence what to fix. Each chore gets 3 tries a day. Screenshots and repeated photos are not accepted.
+5. Rocco checks the photo. The check is done by an AI service (Google Gemini), and the app asks for permission before the first photo is checked. Rocco never stores chore photos. If a photo does not pass, Rocco says in one sentence what to fix. Each chore gets 3 tries a day. Screenshots and repeated photos are not accepted.
 6. Earn coins and spend them on your virtual home.
 
 More details about chores in Rocco:

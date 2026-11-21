@@ -26,6 +26,9 @@ Key facts (as of November 15, 2026):
 - [Cleaning guides](https://rocco.keremkaya.dev/guides/): all of Rocco's practical guides to keeping a home tidy.
 - [Daily cleaning routine](https://rocco.keremkaya.dev/guides/daily-cleaning-routine.html): how to build a short daily cleaning routine you can keep.
 - [Weekly cleaning schedule](https://rocco.keremkaya.dev/guides/weekly-cleaning-schedule.html): how to spread house chores over the week.
+- [Cleaning schedule template](https://rocco.keremkaya.dev/guides/cleaning-schedule-template.html): a blank weekly cleaning schedule table to copy, how to fill it in and a worked example.
+- [House cleaning checklist](https://rocco.keremkaya.dev/guides/house-cleaning-checklist.html): a room-by-room tick-off list with minutes per room, high-touch spots and monthly jobs.
+- [Weekly cleaning schedule by time](https://rocco.keremkaya.dev/guides/weekly-cleaning-schedule-by-time.html): three weekly schedules for 15 minutes a day, 30 minutes a day or three 60 minute sessions.
 - [Split chores fairly](https://rocco.keremkaya.dev/guides/split-chores-fairly.html): how to share chores with a partner, family or roommates.
 - [Motivation to clean](https://rocco.keremkaya.dev/guides/motivation-to-clean.html): how to start cleaning when you do not feel like it.
 
